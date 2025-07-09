@@ -1,0 +1,39 @@
+
+.pokemon-input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Button */
+#search-button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Pokemon info */
+#pokemon-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message */
+#error {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  margin-top: 4rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  font-size: 0.9rem;
+  position: static;
+}
