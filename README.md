@@ -1,4 +1,4 @@
-# Pokémon Search App 🔍
+<h1 align="center">Pokémon Search App 🔍</h1>
 
 A simple web app that lets users search for Pokémon by name or ID and view their basic details using the PokéAPI.
 
