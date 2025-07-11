@@ -11,17 +11,23 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
 </head>
 
+<!-- Flex body -->
 <body class="d-flex flex-column min-vh-100">
     <main class="flex-fill text-center m-3">
+
+        <!-- pokemon-container -->
         <h1 class="m-3">Pokemon Search</h1>
 
         <div class="container border border-3 p-4">
             <div class="row justify-content-center">
+
+                <!-- Input div -->
                 <div class="col-md-12 mb-5">
                     <input type="text" id="pokemon-input" class="pokemon-input form-control mb-3 text-center"
                         placeholder="Enter Pokemon name or ID" />
                     <button id="search-button" class="btn btn-success w-50% mb-3">Search</button>
-
+                    
+                    <!-- pokemonInfo div -->
                     <div id="pokemon-info" class="py-3 m-3"></div>
                     <div id="error" style="color: red;"></div>
                 </div>
@@ -30,7 +36,7 @@
         </div>
     </main>
 
-    <!-- footer.html -->
+    <!-- footer -->
     <footer class="footer bg-dark text-white position-relative">
         <div class="container-fluid px-5 m-3">
             <div class="row justify-content-center text-center">
